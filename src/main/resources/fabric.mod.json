@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "farm-storage-blocks",
+	"version": "1.0.0",
+	"name": "Farm Storage Blocks",
+	"description": "Adds additional storage/decorative blocks for crops and seeds",
+	"authors": [
+		"Blue_Steel42"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/farm-storage-blocks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"bluesteel42.farmstorageblocks.FarmStorageBlocks"
+		],
+		"client": [
+			"bluesteel42.farmstorageblocks.FarmStorageBlocksClient"
+		],
+		"fabric-datagen": [
+			"bluesteel42.farmstorageblocks.FarmStorageBlocksDataGenerator"
+		]
+	},
+	"mixins": [
+		"farm-storage-blocks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
