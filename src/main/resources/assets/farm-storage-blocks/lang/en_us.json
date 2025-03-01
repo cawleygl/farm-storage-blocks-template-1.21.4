@@ -1,0 +1,14 @@
+{
+  "block.farm-storage-blocks.apple_bushel": "Apple Bushel",
+  "block.farm-storage-blocks.beetroot_box": "Beetroot Box",
+  "block.farm-storage-blocks.carrot_crate": "Carrot Crate",
+  "block.farm-storage-blocks.egg_basket": "Egg Basket",
+  "block.farm-storage-blocks.potato_sack": "Potato Sack",
+  "block.farm-storage-blocks.poisonous_potato_sack": "Poisonous Potato Sack",
+
+  "block.farm-storage-blocks.beetroot_seed_pail": "Beetroot Seed Pail",
+  "block.farm-storage-blocks.cocoa_beans_pail": "Cocoa Beans Pail",
+  "block.farm-storage-blocks.melon_seed_pail": "Melon Seed Pail",
+  "block.farm-storage-blocks.pumpkin_seed_pail": "Pumpkin Seed Pail",
+  "block.farm-storage-blocks.wheat_seed_pail": "Wheat Seed Pail"
+}

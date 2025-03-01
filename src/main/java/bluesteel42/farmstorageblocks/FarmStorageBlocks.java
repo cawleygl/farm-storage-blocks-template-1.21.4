@@ -1,5 +1,7 @@
 package bluesteel42.farmstorageblocks;
 
+import bluesteel42.farmstorageblocks.block.ModBlocks;
+import bluesteel42.farmstorageblocks.registries.ModRegistries;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -18,6 +20,8 @@ public class FarmStorageBlocks implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
+		ModBlocks.initialize();
+		ModRegistries.registerCompostables();
 
 		LOGGER.info("Hello Fabric world!");
 	}
